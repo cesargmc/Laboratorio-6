@@ -5,6 +5,10 @@
 body {
     font-family: "Euclid Circular A", Poppins;
     color: #f9f9f9;
+    background-image: url(./assets/matt-drenth-gNQfsIsVU9E-unsplash.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
   
 button {
@@ -16,26 +20,12 @@ button {
   
 .navbar,
 .navbar-burger,
-.menu,
-.background {
+.menu {
     position: fixed;
 }
   
-.background {
-    z-index: 1;
-    top: -10%;
-    left: -10%;
-    width: 120%;
-    height: 120%;
-    background-image: url("./assets/matt-drenth-gNQfsIsVU9E-unsplash.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 80%;
-    transition: 0.5s;
-}
-  
-body.open .background {
-    filter: blur(10px);
+body.open #content {
+    filter: blur(5px);
 }
   
 .navbar {
@@ -64,13 +54,12 @@ body.open .background {
     background-position: center;
 }
 
-.description {
+#content {
     font-family: 'Lato', sans-serif;
     color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    padding: 5rem 0 5rem;
+    width: 50rem;
+    margin: 0 auto;
     text-align: justify;
 }
   
@@ -153,4 +142,8 @@ body.open .menu a {
     100% {
       opacity: 1;
     }
+}
+
+img {
+    height: 300px;
 }

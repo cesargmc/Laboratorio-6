@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Principal</title>
+    <title>3</title>
     <link href="index.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,18 +15,44 @@
     <div id="content">
         <p>
             Vivamus cursus dui vitae fermentum elementum. Nulla congue mattis metus, quis convallis orci. Morbi hendrerit, ante in ullamcorper condimentum, erat nisl viverra metus, eu vestibulum ex diam sit amet eros. Vivamus facilisis a metus sed dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae bibendum ipsum. Sed nec venenatis purus. Quisque sapien massa, viverra eu ullamcorper a, pretium non eros. Curabitur vel condimentum odio. Nulla facilisi. Cras nec leo orci. Quisque ante arcu, auctor nec vulputate at, pretium sed dolor. Pellentesque quis tortor vel dui laoreet vestibulum sit amet id dui. Maecenas non commodo tellus, id luctus ante.
-
+            <br><br>
             Vivamus tincidunt eu risus non tristique. Nullam tincidunt est eu odio viverra, vitae pulvinar libero mattis. Morbi non consequat urna. Proin sodales urna eu urna blandit, sit amet pharetra dolor luctus. Mauris at malesuada elit. Etiam consequat mattis ante id aliquam. Morbi id vehicula eros. Curabitur nec tortor et erat maximus interdum. Donec consectetur tellus sit amet sem varius tincidunt. Aliquam a nisl vehicula, vestibulum tellus eu, luctus magna.
-
+            <br><br>
             Ut consectetur ipsum turpis, et suscipit felis maximus non. Donec lorem urna, finibus porttitor gravida eu, porttitor sed leo. Suspendisse laoreet nulla id luctus ornare. Maecenas finibus bibendum aliquam. Donec bibendum ex sed velit tempor luctus. Praesent consectetur elit enim, eget aliquam libero tempor non. Fusce commodo nibh a euismod convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed id sagittis diam. Quisque dapibus, diam eu feugiat varius, lectus libero luctus augue, non fermentum odio orci sed nisl. Duis imperdiet ipsum augue, ac dictum lectus maximus vel. Nunc aliquet efficitur tellus, vitae luctus sapien feugiat varius. Quisque a nisl fringilla, lacinia quam in, eleifend enim.
         </p>
+            
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <img src="assets/maciej-drazkiewicz-axAtKzOOV9Q-unsplash.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="assets/maciej-drazkiewicz-H2sZ68ZT5zs-unsplash.jpg" alt="">
+                </div>
+                <div class="col">
+                    <img src="assets/maciej-drazkiewicz-PJrj7WSLKso-unsplash.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <br>
+        <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Boton para barralateral</button>
+
+        <div class="offcanvas offcanvas-start show text-bg-dark" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanva</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis quisquam repellat reiciendis nesciunt incidunt, consequatur rem, id cupiditate sint ratione officia blanditiis accusamus tenetur nisi impedit inventore iusto. Placeat, alias.</p>
+            </div>
+        </div>
     </div>
     <button class="navbar-burger" onclick="toggleMenu()"></button>
     <div class="menu">
       <nav>
-        <a href="pagina1.html" style="animation-delay: 0.1s">Pagina Uno</a>
-        <a href="pagina2.html" style="animation-delay: 0.2s">Pagina Dos</a>
-        <a href="pagina3.html" style="animation-delay: 0.3s">Pagina Tres</a>
+        <a href="index.html" style="animation-delay: 0.1s">Pagina Principal</a>
+        <a href="pagina1.html" style="animation-delay: 0.2s">Pagina Uno</a>
+        <a href="pagina2.html" style="animation-delay: 0.3s">Pagina Dos</a>
       </nav>
     </div>
 
@@ -36,5 +62,5 @@
       };
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-  </body>
+</body>
 </html>
